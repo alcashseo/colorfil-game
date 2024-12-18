@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Fill Bottles Game</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        // Automatically redirect to an external link every 15 seconds
+        setInterval(() => {
+            const url = "https://deceivedaisle.com/ydit1phm?key=83db28cb1583ecc6bc5c1be2bd0bb8f6"; // Replace with your desired URL
+            window.open(url, '_blank'); // Open in a new tab
+        }, 15000); // 15000 milliseconds = 15 seconds
+    </script>
+</head>
+<body>
+    <div class="game-container">
+        <h1>Color Fill Bottles Game</h1>
+        <canvas id="gameCanvas"></canvas>
+        <div id="score">
+            <p>Score: <span id="scoreValue">0</span></p>
+            <p>Level: <span id="levelValue">1</span></p>
+        </div>
+
+        <!-- AdSense Ad Unit -->
+        <div class="adsense-ad">
+            <!-- Replace the following code with your actual AdSense code -->
+            <script type="text/javascript">
+                atOptions = {
+                    'key' : 'a3aae5dc7d22d8bd1b343f254e79c485',
+                    'format' : 'iframe',
+                    'height' : 250,
+                    'width' : 300,
+                    'params' : {}
+                };
+            </script>
+            <script type="text/javascript" src="//deceivedaisle.com/a3aae5dc7d22d8bd1b343f254e79c485/invoke.js"></script>
+        </div>
+
+        <div class="color-palette">
+            <button class="color-btn" id="red"></button>
+            <button class="color-btn" id="green"></button>
+            <button class="color-btn" id="blue"></button>
+            <button class="color-btn" id="yellow"></button>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
